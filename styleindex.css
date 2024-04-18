@@ -1,0 +1,116 @@
+*{
+    color:white
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav img{
+    height: 50px;
+    width: 100px;
+}
+
+button{
+    height: 30px;
+    width:100px;
+    background-color: black;
+    border-width:0 0 3px 0 ;
+    border-color: white;
+    color:white;
+}
+
+
+h1{
+    color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#main{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: black;
+
+}
+
+#aside{
+    width: 50%;
+    height: 100vw;
+    
+    object-fit: cover;
+}
+#aside img{
+
+    object-fit:fill;
+}
+
+#hero{
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+#listsh{
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#listsh div{
+
+    width: 400px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    border: solid;
+    border-width: 3px;
+    border-radius: 0px 10px 0px 10
+    px ;
+
+}
+
+#listsh div p{
+
+    color: antiquewhite;
+
+}
+
+#favBtn{
+    height: 30px;
+    width:300px;
+    background-color: black;
+    border-width:0 0 3px 0 ;
+    border-color: white;
+    color:white;
+}
+
+#search{
+    height: 30px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-color: white ;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+}
+

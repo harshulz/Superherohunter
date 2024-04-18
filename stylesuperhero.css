@@ -1,0 +1,66 @@
+*{
+    color:white;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav img{
+    height: 50px;
+    width: 100px;
+}
+
+button{
+    height: 30px;
+    width:100px;
+    background-color: black;
+    border-width:0 0 3px 0 ;
+    border-color: white;
+    color:white;
+}
+
+
+#maindiv{
+    height:200px;
+    width: 300px;
+
+    background-color: black;
+
+}
+
+#favList{display: flex;
+    flex-direction: column;
+
+
+}
+#favList div{
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border: dotted;
+    border-width: 3px;
+    border-radius: 0px 10px 0px 10
+    px ;
+}
+
+#favList div div{
+    width: 500px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border: solid;
+    border-width: 3px;
+    border-radius: 0px 10px 0px 10
+    px ;
+}
